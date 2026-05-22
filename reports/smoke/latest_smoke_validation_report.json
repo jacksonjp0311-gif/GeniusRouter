@@ -1,0 +1,13 @@
+{
+  "schema": "GeniusRouter-SA-v0.3-smoke-validation-report",
+  "status": "pass",
+  "health_status_code": 200,
+  "chat_status_code": 200,
+  "routing_records": 1,
+  "routing_record_schema": "GeniusRouter-SA-v0.2-routing-decision",
+  "final_tier": "high",
+  "selected_model": "openrouter/anthropic/claude-opus-4.7",
+  "provider": "openrouter",
+  "debug_routing_metadata_present": false,
+  "claim_boundary": "Smoke validation checks local endpoint and routing-record emission with mocked provider. It does not prove routing quality, provider reliability, cost savings, production readiness, or benchmark validity."
+}

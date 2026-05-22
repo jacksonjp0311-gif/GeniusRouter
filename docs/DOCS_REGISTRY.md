@@ -33,3 +33,14 @@ The docs registry improves navigation and traceability. It does not prove code c
 | Tests | `tests/` | active | First local validation tests. |
 
 Boundary: v0.2 improves structure. It does not prove routing quality, production readiness, cost savings, or RCC-N completion.
+## GeniusRouter-SA v0.3 Smoke Validation and Runtime Evidence
+
+| Layer | File | Status | Purpose |
+|---|---|---|---|
+| Architecture Change | `docs/architecture_changes/geniusrouter_sa_v0_3_smoke_validation.md` | active | Records smoke validation layer. |
+| Release Note | `docs/release_notes/v0_3_smoke_validation.md` | active | Records the v0.3 checkpoint. |
+| Validation Surface | `docs/validation/validation_surface_v0_3.md` | active | Defines valid and invalid v0.3 claims. |
+| Smoke Runner | `scripts/release/run_smoke_validation_v0_3.py` | active | Emits local smoke validation report. |
+| Smoke Report | `reports/smoke/latest_smoke_validation_report.json` | active | Latest endpoint/routing evidence report. |
+
+Boundary: v0.3 validates endpoint smoke behavior and routing-record emission only. It does not prove routing quality, cost savings, or production readiness.

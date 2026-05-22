@@ -172,7 +172,7 @@ async def chat_completions(request: Request):
         latency_ms=latency_ms,
     ).to_dict()
 
-    append_routing_decision(decision)
+    append_routing_decision(decision, root=os.getenv("GENIUSROUTER_ARTIFACT_ROOT", "."))
 
     if config.cache.enabled and not cache_hit and "error" not in result:
         try:
