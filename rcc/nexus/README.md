@@ -1,74 +1,71 @@
-# GeniusRouter RCC Nexus
+# GeniusRouter rcc/nexus/
 
-## Identity
+## Current layer
 
-RCC-N is the repository navigation layer for GeniusRouter.
+`	ext
+GeniusRouter-SA v0.4.2 — README / RCC-N Alignment
+`
 
-```text
-RCC tells the agent what the repository means.
-RCC-N tells the agent where it is.
-Validation tells the agent whether reality agreed.
-```
+## Purpose
 
-## Primary files
+RCC-N protocol, route map, and Nexus navigation entry.
 
-- `docs/context/repository_context_index.json`
-- `docs/context/rcc_nexus_index.json`
-- `rcc/nexus/route_map.json`
-- `rcc/nexus/rcc_nexus_protocol.md`
-- `scripts/rcc/check_rcc_nexus.py`
+## What belongs here
 
-## Validation
+- Files directly supporting this folder's declared role.
+- Local documentation needed by humans and AI agents before editing this folder.
+- Evidence, validation, or routing hooks listed below.
 
-```powershell
-python scripts/rcc/check_rcc_nexus.py
-python -m unittest discover -s tests
-python scripts/release/run_smoke_validation_v0_3.py
-```
+## What does not belong here
 
-## Boundary
-
-RCC-N improves navigation and AI-agent orientation. It does not prove routing correctness, production readiness, security, patch safety, benchmark validity, cost savings, provider reliability, or AI understanding.
+- Unsupported production-readiness claims.
+- Cost-savings claims without benchmark evidence.
+- Routing-quality claims without routing evidence.
+- Provider-reliability claims without provider integration evidence.
 
 ## RCC Nexus Echo Location
 
 Sphere Position:
 - Shell: outer
-- Meridian(s): agent, documentation, validation, evidence
-- Sector: rcc
-- Version / TTL: GeniusRouter-SA-v0.4 / 180 days
+- Meridian(s): agent, documentation, validation
+- Sector: rcc-nexus
+- Version / TTL: GeniusRouter-SA-v0.4.2 / 180 days
 - Last Verified: 2026-05
 
 Local Role:
-- Root RCC-N navigation surface.
+- RCC-N protocol, route map, and Nexus navigation entry.
 
 Inbound Hooks:
-- README.md
-- README_5_MINUTES.md
-- docs/context/repository_context_index.json
+- README.md; README_5_MINUTES.md
 
 Outbound Hooks:
-- rcc/nexus/route_map.json
-- scripts/rcc/check_rcc_nexus.py
-- docs/context/rcc_nexus_index.json
+- rcc_nexus_protocol.md; route_map.json; scripts/rcc/check_rcc_nexus.py
 
 Evidence Surface:
-- reports/rcc_nexus/latest_rcc_nexus_check.json
-- reports/rcc_nexus/latest_rcc_nexus_check.md
+- reports/rcc_nexus/
 
 Validation Surface:
 - python scripts/rcc/check_rcc_nexus.py
 
 Claim Boundary:
-- Navigation is not validation.
+- This folder improves navigation and traceability. It does not prove routing correctness, production readiness, cost savings, provider reliability, security, patch safety, or AI understanding.
 
 Non-Claim Locks:
-- rcc_n_is_not_code_correctness
-- context_is_not_truth
-- validation_remains_required
+- Navigation is not validation
+- Context is not truth
+- RCC-N is not code correctness
+- Smoke validation is not production readiness
+- Routing decision is not optimality proof
 
 Agent Route:
-- Read route map, target mini README, source/tests, then validate.
+- Read root README.
+- Read README_5_MINUTES.md.
+- Read docs/context/repository_context_index.json.
+- Read docs/context/rcc_nexus_index.json.
+- Read rcc/nexus/route_map.json.
+- Read this README before editing this folder.
+- Inspect relevant source, tests, docs, reports, or artifacts.
+- Run declared validation before claiming completion.
 
 Update Obligation:
-- Update this README when route maps, validation commands, indexed folders, or claim boundaries change.
+- Update this README when folder role, outbound hooks, validation commands, evidence paths, claim boundaries, or repository geometry change.

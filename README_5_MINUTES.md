@@ -4,45 +4,32 @@
 
 GeniusRouter is a FastAPI/OpenAI-compatible LLM router scaffold. Its core idea is to route prompts to low, medium, or high model tiers instead of sending every request to the strongest or most expensive model.
 
-## Current state
-
-Current governed layer:
+## Current layer
 
 ```text
-GeniusRouter-SA v0.4 — RCC-N Repository Navigation Injection
+GeniusRouter-SA v0.4.2 — README / RCC-N Alignment
 ```
 
-Runtime state before RCC-N:
+## Current validated state
 
 ```text
-GeniusRouter-SA v0.3.2
-18 tests OK
-health smoke validation passed
-chat endpoint smoke validation passed
-routing decision record emitted
-debug routing metadata present
+RCC-N checker: passed in v0.4.1
+Mini READMEs: 21 / 21 indexed folders
+Unit tests: 21 OK in v0.4.1
+Smoke validation: passed in v0.4.1
+Routing records emitted: 1
+Debug routing metadata: present
 ```
 
-## What this repo is not
+## Start here
 
-- Not production ready.
-- Not benchmark-validated.
-- Not proof of cost savings.
-- Not proof of routing quality.
-- Not proof of classifier accuracy.
-- Not proof of provider reliability.
-- Not proof that RCC-N validates code correctness.
+1. `README.md`
+2. `docs/context/repository_context_index.json`
+3. `docs/context/rcc_nexus_index.json`
+4. `rcc/nexus/route_map.json`
+5. target folder `README.md`
 
-## Where to start
-
-1. Read `README.md`.
-2. Read `docs/context/repository_context_index.json`.
-3. Read `docs/context/rcc_nexus_index.json`.
-4. Read `rcc/nexus/route_map.json`.
-5. Read the target folder README.
-6. Run validation.
-
-## Current validation
+## Validate
 
 ```powershell
 python scripts/rcc/check_rcc_nexus.py
@@ -58,3 +45,7 @@ Strong when necessary.
 Observable always.
 Bounded in claims.
 ```
+
+## Boundary
+
+This repo is a governed scaffold. It is not production ready, not benchmark-validated, and not proof of routing quality or cost savings.

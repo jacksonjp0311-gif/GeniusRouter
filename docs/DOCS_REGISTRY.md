@@ -84,3 +84,16 @@ Boundary: v0.4 improves navigation and AI-agent orientation. It does not prove r
 | Repair Script | `scripts/release/repair_geniusrouter_sa_v0_4_1_validation_compatibility.ps1` | active | Applies v0.4.1 repair. |
 
 Boundary: v0.4.1 repairs validation compatibility. It does not prove routing correctness, production readiness, cost savings, or AI understanding.
+## GeniusRouter-SA v0.4.2 README / RCC-N Alignment
+
+| Layer | File | Status | Purpose |
+|---|---|---|---|
+| Root README | `README.md` | active | Human / RCC Nexus / AI Agent trisection. |
+| Quick README | `README_5_MINUTES.md` | active | Short adoption compression. |
+| Repository Context | `docs/context/repository_context_index.json` | active | Current repository context index. |
+| RCC Nexus Index | `docs/context/rcc_nexus_index.json` | active | Current RCC-N index. |
+| Release Note | `docs/release_notes/v0_4_2_readme_rcc_n_alignment.md` | active | Records v0.4.2 README/RCC-N alignment. |
+| Architecture Change | `docs/architecture_changes/geniusrouter_sa_v0_4_2_readme_rcc_n_alignment.md` | active | Records README/RCC-N alignment change. |
+| Validation Surface | `docs/validation/validation_surface_v0_4_2.md` | active | Defines v0.4.2 validation boundaries. |
+
+Boundary: v0.4.2 improves navigation and README completeness. It does not prove routing correctness, production readiness, cost savings, provider reliability, security, patch safety, or AI understanding.

@@ -1,6 +1,6 @@
 {
   "schema": "GeniusRouter-RCC-N-v0.4-check-report",
-  "passed": true,
+  "passed": false,
   "required_files_checked": 8,
   "mini_readmes_checked": 21,
   "missing": [],

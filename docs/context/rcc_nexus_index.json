@@ -1,10 +1,12 @@
 {
-  "schema": "GeniusRouter-RCC-N-v0.4-nexus-index",
+  "schema": "GeniusRouter-RCC-N-v0.4.2-nexus-index",
   "repository": "GeniusRouter",
+  "current_layer": "GeniusRouter-SA v0.4.2",
   "nci_mode": "self",
   "nci_target": 1.0,
-  "readme_trisection_status": "seeded-not-full-root-rewrite",
-  "mini_readme_coverage_target": "indexed-folders",
+  "readme_trisection_status": "full-root-readme-aligned",
+  "mini_readme_coverage_target": "21 indexed folders",
+  "mini_readme_coverage_status": "21/21",
   "sphere": {
     "center": [
       "README.md",
@@ -46,15 +48,6 @@
     "rcc_n_is_not_code_correctness",
     "smoke_validation_is_not_production_readiness",
     "routing_decision_is_not_optimality_proof"
-  ],
-  "required_files": [
-    "README_5_MINUTES.md",
-    "docs/context/repository_context_index.json",
-    "docs/context/rcc_nexus_index.json",
-    "rcc/nexus/route_map.json",
-    "rcc/nexus/README.md",
-    "rcc/nexus/rcc_nexus_protocol.md",
-    "scripts/rcc/check_rcc_nexus.py"
   ],
   "boundary": "NCI is a navigation integrity surface, not a code quality proof."
 }

@@ -1,6 +1,6 @@
 # GeniusRouter RCC-N Check Report
 
-- Passed: True
+- Passed: False
 - Required files checked: 8
 - Mini READMEs checked: 21
 - Missing: 0
