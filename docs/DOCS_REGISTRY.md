@@ -44,3 +44,12 @@ Boundary: v0.2 improves structure. It does not prove routing quality, production
 | Smoke Report | `reports/smoke/latest_smoke_validation_report.json` | active | Latest endpoint/routing evidence report. |
 
 Boundary: v0.3 validates endpoint smoke behavior and routing-record emission only. It does not prove routing quality, cost savings, or production readiness.
+## GeniusRouter-SA v0.3.1 Debug Routing Metadata Repair
+
+| Layer | File | Status | Purpose |
+|---|---|---|---|
+| Architecture Change | `docs/architecture_changes/geniusrouter_sa_v0_3_1_debug_routing_metadata_repair.md` | active | Records debug metadata repair. |
+| Release Note | `docs/release_notes/v0_3_1_debug_routing_metadata_repair.md` | active | Records v0.3.1 smoke repair. |
+| Repair Script | `scripts/release/repair_geniusrouter_sa_v0_3_1_debug_metadata.ps1` | active | Applies the v0.3.1 repair. |
+
+Boundary: v0.3.1 repairs local debug metadata validation. It does not prove routing quality, cost savings, or production readiness.

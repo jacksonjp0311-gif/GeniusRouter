@@ -59,7 +59,7 @@ def run_smoke_validation() -> dict:
 
         report = {
             "schema": "GeniusRouter-SA-v0.3-smoke-validation-report",
-            "status": "pass" if health.status_code == 200 and chat.status_code == 200 and routing_records else "fail",
+            "status": "pass" if health.status_code == 200 and chat.status_code == 200 and routing_records and ("_geniusrouter" in chat.json()) else "fail",
             "health_status_code": health.status_code,
             "chat_status_code": chat.status_code,
             "routing_records": len(routing_records),
