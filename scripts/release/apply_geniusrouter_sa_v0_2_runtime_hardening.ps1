@@ -1,0 +1,1 @@
+# GeniusRouter-SA v0.2 runtime hardening script anchor

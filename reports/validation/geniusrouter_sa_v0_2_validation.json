@@ -1,0 +1,9 @@
+{
+  "schema": "GeniusRouter-SA-v0.2-validation-report",
+  "status": "pass",
+  "tests": "python -m unittest discover -s tests",
+  "runtime_package": "src/geniusrouter",
+  "legacy_runtime_preserved": true,
+  "compatibility_entrypoint": "src/main.py",
+  "boundary": "Validation confirms local structural tests only. It does not prove routing quality or production readiness."
+}

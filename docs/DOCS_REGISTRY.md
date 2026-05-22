@@ -22,3 +22,14 @@ GeniusRouter-SA v0.1 is a docs architecture checkpoint. Runtime behavior is inte
 ## Boundary
 
 The docs registry improves navigation and traceability. It does not prove code correctness, production readiness, routing quality, cost savings, provider reliability, or benchmark validity.
+## GeniusRouter-SA v0.2 Runtime Hardening Scaffold
+
+| Layer | File | Status | Purpose |
+|---|---|---|---|
+| Architecture Change | `docs/architecture_changes/geniusrouter_sa_v0_2_runtime_hardening.md` | active | Records runtime package hardening. |
+| Release Note | `docs/release_notes/v0_2_runtime_hardening.md` | active | Records the v0.2 checkpoint. |
+| Validation Surface | `docs/validation/validation_surface_v0_2.md` | active | Defines valid and invalid v0.2 claims. |
+| Runtime Package | `src/geniusrouter/` | active | Structured router package. |
+| Tests | `tests/` | active | First local validation tests. |
+
+Boundary: v0.2 improves structure. It does not prove routing quality, production readiness, cost savings, or RCC-N completion.

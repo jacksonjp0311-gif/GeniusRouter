@@ -1,0 +1,23 @@
+[project]
+name = "geniusrouter"
+version = "0.2.0"
+description = "Evidence-ready low/medium/high LLM routing runtime scaffold."
+requires-python = ">=3.11"
+dependencies = [
+  "fastapi==0.115.0",
+  "uvicorn==0.30.6",
+  "litellm==1.52.0",
+  "semantic-router==0.0.50",
+  "redis==5.2.0",
+  "ollama==0.3.3",
+  "pydantic==2.9.2",
+  "python-dotenv==1.0.1",
+  "PyYAML==6.0.2"
+]
+
+[tool.unittest]
+start-dir = "tests"
+
+[tool.geniusrouter]
+architecture_layer = "GeniusRouter-SA v0.2"
+runtime_hardening = true

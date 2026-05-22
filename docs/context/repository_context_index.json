@@ -1,18 +1,16 @@
 {
-  "schema": "GeniusRouter-SA-v0.1-repository-context-index",
+  "schema": "GeniusRouter-SA-v0.2-repository-context-index",
   "repository": "GeniusRouter",
-  "current_layer": "GeniusRouter-SA v0.1",
-  "status": "full-docs-architecture-checkpoint",
-  "primary_runtime_file": "src/main.py",
+  "current_layer": "GeniusRouter-SA v0.2",
+  "status": "runtime-hardening-scaffold",
+  "primary_runtime_entrypoint": "src/main.py",
+  "primary_runtime_package": "src/geniusrouter/",
+  "legacy_runtime_snapshot": "src/legacy_main_v0_1.py",
   "primary_config": "config.yaml",
   "docs_registry": "docs/DOCS_REGISTRY.md",
   "software_architecture": "docs/software_architecture/geniusrouter_sa_v0_1_full_software_architecture.md",
-  "non_claim_locks": "docs/protocols/non_claim_locks.md",
-  "ai_operating_contract": "docs/protocols/ai_operating_contract.md",
-  "routing_decision_contract": "docs/protocols/routing_decision_contract.md",
-  "runtime_hardening_plan": "docs/protocols/runtime_hardening_plan.md",
-  "roadmap": "docs/roadmap/geniusrouter_sa_roadmap.md",
-  "validation_surface": "docs/validation/validation_surface_v0_1.md",
-  "next_recommended_layer": "GeniusRouter-SA v0.2 runtime hardening",
-  "boundary": "This index improves repository orientation. It does not prove runtime correctness."
+  "v0_2_release_note": "docs/release_notes/v0_2_runtime_hardening.md",
+  "v0_2_validation_surface": "docs/validation/validation_surface_v0_2.md",
+  "next_recommended_layer": "GeniusRouter-SA v0.3 tests and smoke validation",
+  "boundary": "This index improves repository orientation. It does not prove routing quality."
 }
