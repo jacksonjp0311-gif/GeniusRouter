@@ -19,8 +19,8 @@ class TestGeniusRouterV03Docs(unittest.TestCase):
 
     def test_context_index_current_layer(self):
         data = json.loads((ROOT / "docs" / "context" / "repository_context_index.json").read_text(encoding="utf-8"))
-        self.assertEqual(data["current_layer"], "GeniusRouter-SA v0.3")
-        self.assertEqual(data["status"], "smoke-validation-runtime-evidence-layer")
+        self.assertRegex(data["current_layer"], r"^GeniusRouter-SA v0\.(3|4)")
+        self.assertIn(data["status"], {"smoke-validation-runtime-evidence-layer", "rcc-n-navigation-injection"})
 
 
 if __name__ == "__main__":

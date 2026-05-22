@@ -74,3 +74,13 @@ Boundary: v0.3.2 repairs local debug metadata validation. It does not prove rout
 | RCC Report | `reports/rcc_nexus/latest_rcc_nexus_check.json` | active | Latest RCC-N checker result. |
 
 Boundary: v0.4 improves navigation and AI-agent orientation. It does not prove routing correctness, production readiness, cost savings, or AI understanding.
+## GeniusRouter-SA v0.4.1 Validation Compatibility Repair
+
+| Layer | File | Status | Purpose |
+|---|---|---|---|
+| Architecture Change | `docs/architecture_changes/geniusrouter_sa_v0_4_1_validation_compatibility_repair.md` | active | Records v0.4.1 historical-test compatibility repair. |
+| Release Note | `docs/release_notes/v0_4_1_validation_compatibility_repair.md` | active | Records the v0.4.1 repair checkpoint. |
+| Validation Report | `reports/validation/geniusrouter_sa_v0_4_1_validation.json` | active | Records passing v0.4.1 validation. |
+| Repair Script | `scripts/release/repair_geniusrouter_sa_v0_4_1_validation_compatibility.ps1` | active | Applies v0.4.1 repair. |
+
+Boundary: v0.4.1 repairs validation compatibility. It does not prove routing correctness, production readiness, cost savings, or AI understanding.
