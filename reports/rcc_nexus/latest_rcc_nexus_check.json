@@ -1,0 +1,11 @@
+{
+  "schema": "GeniusRouter-RCC-N-v0.4-check-report",
+  "passed": true,
+  "required_files_checked": 8,
+  "mini_readmes_checked": 21,
+  "missing": [],
+  "bad_readmes": [],
+  "nci_mode": "self",
+  "nci_target": 1.0,
+  "boundary": "RCC-N checker validates navigation surfaces only. It does not prove routing correctness, production readiness, security, patch safety, cost savings, provider reliability, or AI understanding."
+}

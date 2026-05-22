@@ -1,29 +1,29 @@
-# GeniusRouter docs/
+# GeniusRouter docs/release_notes/
 
 ## Purpose
 
-Documentation architecture, release notes, protocols, validation surfaces, and context indexes.
+Versioned release notes and continuity records.
 
 ## RCC Nexus Echo Location
 
 Sphere Position:
 - Shell: outer
-- Meridian(s): documentation, safety, release, agent
-- Sector: docs
+- Meridian(s): release, documentation
+- Sector: release-notes
 - Version / TTL: GeniusRouter-SA-v0.4 / 180 days
 - Last Verified: 2026-05
 
 Local Role:
-- Documentation architecture, release notes, protocols, validation surfaces, and context indexes.
+- Versioned release notes and continuity records.
 
 Inbound Hooks:
-- README.md; README_5_MINUTES.md
+- docs/DOCS_REGISTRY.md
 
 Outbound Hooks:
-- docs/DOCS_REGISTRY.md; docs/context/; docs/software_architecture/
+- docs/architecture_changes/; reports/validation/
 
 Evidence Surface:
-- docs/context/; docs/validation/
+- docs/release_notes/
 
 Validation Surface:
 - python scripts/rcc/check_rcc_nexus.py

@@ -1,32 +1,32 @@
-# GeniusRouter docs/
+# GeniusRouter docs/software_architecture/
 
 ## Purpose
 
-Documentation architecture, release notes, protocols, validation surfaces, and context indexes.
+Software architecture documents and RCC-N injection architecture.
 
 ## RCC Nexus Echo Location
 
 Sphere Position:
-- Shell: outer
-- Meridian(s): documentation, safety, release, agent
-- Sector: docs
+- Shell: center
+- Meridian(s): source, documentation, safety
+- Sector: architecture
 - Version / TTL: GeniusRouter-SA-v0.4 / 180 days
 - Last Verified: 2026-05
 
 Local Role:
-- Documentation architecture, release notes, protocols, validation surfaces, and context indexes.
+- Software architecture documents and RCC-N injection architecture.
 
 Inbound Hooks:
-- README.md; README_5_MINUTES.md
+- docs/DOCS_REGISTRY.md
 
 Outbound Hooks:
-- docs/DOCS_REGISTRY.md; docs/context/; docs/software_architecture/
+- geniusrouter_sa_v0_1_full_software_architecture.md; geniusrouter_sa_v0_4_rcc_n_injection.md
 
 Evidence Surface:
-- docs/context/; docs/validation/
+- docs/validation/
 
 Validation Surface:
-- python scripts/rcc/check_rcc_nexus.py
+- python -m unittest discover -s tests
 
 Claim Boundary:
 - This folder improves navigation and traceability. It does not prove routing correctness, production readiness, cost savings, provider reliability, security, patch safety, or AI understanding.

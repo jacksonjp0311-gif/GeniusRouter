@@ -1,29 +1,29 @@
-# GeniusRouter docs/
+# GeniusRouter docs/architecture_changes/
 
 ## Purpose
 
-Documentation architecture, release notes, protocols, validation surfaces, and context indexes.
+Versioned architecture change records.
 
 ## RCC Nexus Echo Location
 
 Sphere Position:
 - Shell: outer
-- Meridian(s): documentation, safety, release, agent
-- Sector: docs
+- Meridian(s): release, documentation
+- Sector: change-records
 - Version / TTL: GeniusRouter-SA-v0.4 / 180 days
 - Last Verified: 2026-05
 
 Local Role:
-- Documentation architecture, release notes, protocols, validation surfaces, and context indexes.
+- Versioned architecture change records.
 
 Inbound Hooks:
-- README.md; README_5_MINUTES.md
+- docs/DOCS_REGISTRY.md
 
 Outbound Hooks:
-- docs/DOCS_REGISTRY.md; docs/context/; docs/software_architecture/
+- docs/release_notes/; docs/validation/
 
 Evidence Surface:
-- docs/context/; docs/validation/
+- docs/architecture_changes/
 
 Validation Surface:
 - python scripts/rcc/check_rcc_nexus.py

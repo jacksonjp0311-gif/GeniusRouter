@@ -1,32 +1,32 @@
-# GeniusRouter docs/
+# GeniusRouter reports/smoke/
 
 ## Purpose
 
-Documentation architecture, release notes, protocols, validation surfaces, and context indexes.
+Smoke validation reports for endpoint and routing evidence.
 
 ## RCC Nexus Echo Location
 
 Sphere Position:
 - Shell: outer
-- Meridian(s): documentation, safety, release, agent
-- Sector: docs
+- Meridian(s): validation, evidence
+- Sector: smoke-reports
 - Version / TTL: GeniusRouter-SA-v0.4 / 180 days
 - Last Verified: 2026-05
 
 Local Role:
-- Documentation architecture, release notes, protocols, validation surfaces, and context indexes.
+- Smoke validation reports for endpoint and routing evidence.
 
 Inbound Hooks:
-- README.md; README_5_MINUTES.md
+- scripts/release/run_smoke_validation_v0_3.py
 
 Outbound Hooks:
-- docs/DOCS_REGISTRY.md; docs/context/; docs/software_architecture/
+- docs/validation/
 
 Evidence Surface:
-- docs/context/; docs/validation/
+- reports/smoke/
 
 Validation Surface:
-- python scripts/rcc/check_rcc_nexus.py
+- python scripts/release/run_smoke_validation_v0_3.py
 
 Claim Boundary:
 - This folder improves navigation and traceability. It does not prove routing correctness, production readiness, cost savings, provider reliability, security, patch safety, or AI understanding.

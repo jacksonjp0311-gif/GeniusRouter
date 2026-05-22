@@ -1,32 +1,32 @@
-# GeniusRouter docs/
+# GeniusRouter artifacts/
 
 ## Purpose
 
-Documentation architecture, release notes, protocols, validation surfaces, and context indexes.
+Runtime-generated artifact surface.
 
 ## RCC Nexus Echo Location
 
 Sphere Position:
 - Shell: outer
-- Meridian(s): documentation, safety, release, agent
-- Sector: docs
+- Meridian(s): evidence, runtime
+- Sector: artifacts
 - Version / TTL: GeniusRouter-SA-v0.4 / 180 days
 - Last Verified: 2026-05
 
 Local Role:
-- Documentation architecture, release notes, protocols, validation surfaces, and context indexes.
+- Runtime-generated artifact surface.
 
 Inbound Hooks:
-- README.md; README_5_MINUTES.md
+- src/geniusrouter/telemetry.py
 
 Outbound Hooks:
-- docs/DOCS_REGISTRY.md; docs/context/; docs/software_architecture/
+- artifacts/routing_decisions/
 
 Evidence Surface:
-- docs/context/; docs/validation/
+- artifacts/
 
 Validation Surface:
-- python scripts/rcc/check_rcc_nexus.py
+- python scripts/release/run_smoke_validation_v0_3.py
 
 Claim Boundary:
 - This folder improves navigation and traceability. It does not prove routing correctness, production readiness, cost savings, provider reliability, security, patch safety, or AI understanding.

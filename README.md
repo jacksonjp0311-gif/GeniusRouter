@@ -16,9 +16,9 @@ Quickstart
 
 --
 
-# GeniusRouter — SOTA 3-Tier IQ LLM Router (May 2026)
+# GeniusRouter â€” SOTA 3-Tier IQ LLM Router (May 2026)
 
-**The easiest way to route prompts by intelligence required** — Low / Medium / High IQ tiers.
+**The easiest way to route prompts by intelligence required** â€” Low / Medium / High IQ tiers.
 
 Built by intelligently combining the best-of-class components from multiple state-of-the-art open-source repositories.
 
@@ -49,12 +49,12 @@ curl http://localhost:8000/health
 The router is now running as a full OpenAI-compatible proxy at http://localhost:8000.
 
 Features
-•  Simple config.yaml — choose any models for Low / Medium / High IQ
-•  Full support for up to 3 separate local GPU rigs + OpenRouter + any API provider
-•  Tiny Granite4 350M classifier + semantic first-pass routing (<10ms decisions)
-•  Redis semantic cache for maximum tokenomics and speed
-•  70–92% cost savings while preserving quality
-•  Docker one-click deployment
+â€¢  Simple config.yaml â€” choose any models for Low / Medium / High IQ
+â€¢  Full support for up to 3 separate local GPU rigs + OpenRouter + any API provider
+â€¢  Tiny Granite4 350M classifier + semantic first-pass routing (<10ms decisions)
+â€¢  Redis semantic cache for maximum tokenomics and speed
+â€¢  70â€“92% cost savings while preserving quality
+â€¢  Docker one-click deployment
 
 --
  
@@ -75,4 +75,31 @@ When both GeniusRouter and GeniusRALPH are mature and reliable, the long-term vi
 
 We look forward to collaborating with the Open Source MIT licensed community!
 
-    • wanna take a ride? •
+    â€¢ wanna take a ride? â€¢
+
+---
+
+## GeniusRouter-SA v0.4 — RCC-N Navigation Injection
+
+This repository now includes a docs-first RCC-N navigation layer.
+
+Start here:
+
+1. `README_5_MINUTES.md`
+2. `docs/context/repository_context_index.json`
+3. `docs/context/rcc_nexus_index.json`
+4. `rcc/nexus/route_map.json`
+5. `rcc/nexus/README.md`
+6. target folder `README.md`
+
+Validation:
+
+```powershell
+python scripts/rcc/check_rcc_nexus.py
+python -m unittest discover -s tests
+python scripts/release/run_smoke_validation_v0_3.py
+```
+
+Boundary:
+
+RCC-N improves navigation, traceability, and AI-agent orientation. It does not prove routing correctness, production readiness, security, patch safety, benchmark validity, cost savings, provider reliability, or AI understanding.

@@ -63,3 +63,14 @@ Boundary: v0.3.1 repairs local debug metadata validation. It does not prove rout
 | Repair Script | `scripts/release/repair_geniusrouter_sa_v0_3_2_runtime_debug_metadata.ps1` | active | Applies the v0.3.2 repair. |
 
 Boundary: v0.3.2 repairs local debug metadata validation. It does not prove routing quality, cost savings, or production readiness.
+## GeniusRouter-SA v0.4 RCC-N Repository Navigation Injection
+
+| Layer | File | Status | Purpose |
+|---|---|---|---|
+| RCC-N Architecture | `docs/software_architecture/geniusrouter_sa_v0_4_rcc_n_injection.md` | active | Defines RCC-N injection architecture. |
+| RCC Nexus Index | `docs/context/rcc_nexus_index.json` | active | Machine-readable Nexus index. |
+| Route Map | `rcc/nexus/route_map.json` | active | Task-to-surface navigation map. |
+| RCC Checker | `scripts/rcc/check_rcc_nexus.py` | active | Validates RCC-N surfaces and mini READMEs. |
+| RCC Report | `reports/rcc_nexus/latest_rcc_nexus_check.json` | active | Latest RCC-N checker result. |
+
+Boundary: v0.4 improves navigation and AI-agent orientation. It does not prove routing correctness, production readiness, cost savings, or AI understanding.

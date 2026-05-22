@@ -1,32 +1,32 @@
-# GeniusRouter docs/
+# GeniusRouter scripts/
 
 ## Purpose
 
-Documentation architecture, release notes, protocols, validation surfaces, and context indexes.
+Automation, release, RCC checker, and validation scripts.
 
 ## RCC Nexus Echo Location
 
 Sphere Position:
-- Shell: outer
-- Meridian(s): documentation, safety, release, agent
-- Sector: docs
+- Shell: middle
+- Meridian(s): runtime, validation, release, agent
+- Sector: scripts
 - Version / TTL: GeniusRouter-SA-v0.4 / 180 days
 - Last Verified: 2026-05
 
 Local Role:
-- Documentation architecture, release notes, protocols, validation surfaces, and context indexes.
+- Automation, release, RCC checker, and validation scripts.
 
 Inbound Hooks:
-- README.md; README_5_MINUTES.md
+- docs/context/rcc_nexus_index.json
 
 Outbound Hooks:
-- docs/DOCS_REGISTRY.md; docs/context/; docs/software_architecture/
+- scripts/rcc/; scripts/release/
 
 Evidence Surface:
-- docs/context/; docs/validation/
+- reports/validation/; reports/rcc_nexus/
 
 Validation Surface:
-- python scripts/rcc/check_rcc_nexus.py
+- python -m unittest discover -s tests
 
 Claim Boundary:
 - This folder improves navigation and traceability. It does not prove routing correctness, production readiness, cost savings, provider reliability, security, patch safety, or AI understanding.
