@@ -1,0 +1,1 @@
+# GeniusRouter-SA v0.3.2 runtime debug metadata repair

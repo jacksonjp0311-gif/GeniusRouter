@@ -1,0 +1,8 @@
+{
+  "schema": "GeniusRouter-SA-v0.3.2-validation-report",
+  "status": "pass",
+  "tests": "python -m unittest discover -s tests",
+  "smoke_runner": "python scripts/release/run_smoke_validation_v0_3.py",
+  "repair": "debug routing metadata now appears when GENIUSROUTER_DEBUG_ROUTING=true",
+  "boundary": "Validation confirms local tests and mocked-provider smoke validation only. It does not prove routing quality or production readiness."
+}

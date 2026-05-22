@@ -8,6 +8,6 @@
   "final_tier": "high",
   "selected_model": "openrouter/anthropic/claude-opus-4.7",
   "provider": "openrouter",
-  "debug_routing_metadata_present": false,
+  "debug_routing_metadata_present": true,
   "claim_boundary": "Smoke validation checks local endpoint and routing-record emission with mocked provider. It does not prove routing quality, provider reliability, cost savings, production readiness, or benchmark validity."
 }

@@ -8,6 +8,6 @@
 - Final tier: high
 - Selected model: openrouter/anthropic/claude-opus-4.7
 - Provider: openrouter
-- Debug routing metadata present: False
+- Debug routing metadata present: True
 
 Boundary: Smoke validation checks local endpoint and routing-record emission with mocked provider. It does not prove routing quality, provider reliability, cost savings, production readiness, or benchmark validity.

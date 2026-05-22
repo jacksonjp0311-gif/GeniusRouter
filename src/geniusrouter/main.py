@@ -180,6 +180,11 @@ async def chat_completions(request: Request):
         except Exception:
             pass
 
+    if os.getenv("GENIUSROUTER_DEBUG_ROUTING", "").lower() in {"1", "true", "yes"}:
+        if isinstance(result, dict):
+            result.setdefault("_geniusrouter", {})
+            result["_geniusrouter"]["routing_decision"] = decision
+
     return JSONResponse(content=result)
 
 

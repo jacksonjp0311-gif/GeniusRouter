@@ -53,3 +53,13 @@ Boundary: v0.3 validates endpoint smoke behavior and routing-record emission onl
 | Repair Script | `scripts/release/repair_geniusrouter_sa_v0_3_1_debug_metadata.ps1` | active | Applies the v0.3.1 repair. |
 
 Boundary: v0.3.1 repairs local debug metadata validation. It does not prove routing quality, cost savings, or production readiness.
+## GeniusRouter-SA v0.3.2 Runtime Debug Metadata Repair
+
+| Layer | File | Status | Purpose |
+|---|---|---|---|
+| Architecture Change | `docs/architecture_changes/geniusrouter_sa_v0_3_2_runtime_debug_metadata_repair.md` | active | Records actual runtime debug metadata repair. |
+| Release Note | `docs/release_notes/v0_3_2_runtime_debug_metadata_repair.md` | active | Records v0.3.2 repair. |
+| Validation Report | `reports/validation/geniusrouter_sa_v0_3_2_validation.json` | active | Records passing v0.3.2 validation. |
+| Repair Script | `scripts/release/repair_geniusrouter_sa_v0_3_2_runtime_debug_metadata.ps1` | active | Applies the v0.3.2 repair. |
+
+Boundary: v0.3.2 repairs local debug metadata validation. It does not prove routing quality, cost savings, or production readiness.
